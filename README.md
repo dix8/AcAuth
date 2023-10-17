@@ -5,4 +5,4 @@
 Ac
 
 ## 联系邮箱：
-mailto:kek@vip.qq.com
+kek@vip.qq.com
