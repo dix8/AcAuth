@@ -24,4 +24,4 @@ list.php查课所有数据
 
 作者：Ac
 联系邮箱：kek@vip.qq.com
-网站：kek1.cn
+网站：https://github.com/dix8/AcAuth
