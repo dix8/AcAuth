@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 90%; /* 设置宽度为90% */
+}
+h1 {
+    color: #333;
+}
+input[type=text], button {
+    display: block; /* 新行 */
+    margin: 10px auto; /* 居中 */
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* 媒体查询，用于桌面和更大的屏幕 */
+@media (min-width: 600px) {
+  .container {
+      width: auto; /* 将宽度重置为自动 */
+      max-width: none; /* 将最大宽度重置 */
+  }
+}
