@@ -1,0 +1,22 @@
+/* 设置表格样式 */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* 设置表格单元格样式 */
+td, th {
+    padding: 10px;
+    text-align: center;
+}
+
+/* 设置表格标题样式 */
+th {
+    background-color: #f0f0f0;
+}
+
+/* 设置奇数行背景色 */
+tr:nth-child(odd) {
+    background-color: #e0e0e0;
+}
